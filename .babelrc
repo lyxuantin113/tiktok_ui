@@ -1,0 +1,12 @@
+// babel-plugin-module-resolver
+// npm install --save-dev babel-plugin-module-resolver
+// Nạp trong customize cra (config-overrides)
+{
+    "plugins": [
+      ["module-resolver", {
+        "alias": {
+          "~": "./src"
+        }
+      }]
+    ]
+  }
